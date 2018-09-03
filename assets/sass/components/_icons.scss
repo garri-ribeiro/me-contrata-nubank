@@ -22,7 +22,7 @@
 			> a, > span {
 				border: 0;
 				@include icon;
-
+				padding-left: 10px !important; 
 				.label {
 					display: none;
 				}
