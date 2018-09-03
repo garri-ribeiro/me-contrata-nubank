@@ -52,7 +52,7 @@
 			top: 0;
 			width: 100%;
 		}
-
+		
 		&.icon {
 			&:before {
 				margin-right: 0.75em;
@@ -77,6 +77,28 @@
 
 			&:after {
 				display: none;
+			}
+		}
+
+		&.button-color-alt {
+			color: _palette(fg-white) !important;
+			border-color: _palette(fg-white) !important;
+
+			&:hover {
+			border-color: _palette(fg-bold-white) !important;
+
+				&:after {
+					opacity: 0.05;
+					@include vendor('transform', 'scale(1)');
+				}
+
+				&:active {
+					border-color: _palette(fg-bold-white) !important;
+
+					&:after {
+						opacity: 0.1;
+					}
+				}
 			}
 		}
 

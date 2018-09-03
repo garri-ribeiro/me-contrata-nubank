@@ -38,7 +38,7 @@
 		&.style1-alt {
 			background-color: _palette(accent1-alt);
 		}
-
+		
 		&.style2 {
 			background-color: _palette(accent2);
 		}
@@ -53,6 +53,15 @@
 
 		&.style3-alt {
 			background-color: _palette(accent3-alt);
+		}
+
+		&.style-white {
+			background-color: _palette(bg-white);
+			color: _palette(fg-white);
+
+			h1 {
+				color: _palette(fg-white);
+			}
 		}
 
 		&.fullscreen {
