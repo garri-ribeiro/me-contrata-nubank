@@ -1633,6 +1633,8 @@ ul {
   padding-left: 1em; }
   ul li {
     padding-left: 0.5em; }
+    ul li ul {
+      margin: 0.3em 0 0 2em; }
   ul.alt {
     list-style: none;
     padding-left: 0; }
@@ -2059,7 +2061,7 @@ table {
     background-color: #fef5ff;
     color: #5e42a6; }
     .wrapper > .curriculum h1, .wrapper > .curriculum h2, .wrapper > .curriculum h3, .wrapper > .curriculum h4, .wrapper > .curriculum h5, .wrapper > .curriculum h6 {
-      color: #5e42a6; }
+      color: #543b94; }
   .wrapper.fullscreen {
     display: -moz-flex;
     display: -webkit-flex;
