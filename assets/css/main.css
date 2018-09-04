@@ -1181,6 +1181,10 @@ button,
       .button:hover:active:after {
         opacity: 0.1; }
 
+.btn-pdf {
+  font-size: 0.4em;
+  margin-top: 12px !important; }
+
 /* Features */
 .features {
   display: -moz-flex;
